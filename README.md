@@ -1,30 +1,45 @@
-# SwipeShop AI (Expo App)
+# 🛍️ SwipeShop AI
 
-### 🚀 Setup Instructions
+SwipeShop AI is a beautifully designed Streamlit web app that lets users swipe through products like a shopping game. It learns from your preferences and recommends items you might love.
 
-1. Make sure you have **Node.js** and **Expo CLI** installed.
-   - Install Expo CLI if needed:
-     ```bash
-     npm install -g expo-cli
-     ```
+## 🌟 Features
 
-2. Unzip this folder and navigate to the project:
-   ```bash
-   cd SwipeShopAI
-   ```
+- ✅ Real product data from [FakeStoreAPI](https://fakestoreapi.com)
+- 🖼️ Gorgeous product images and clean layout
+- ❤️ Like, ❌ Skip, and 🛒 Buy Now options
+- 🤖 AI-based recommendations based on your likes
+- 🚀 Ready to deploy on [Streamlit Cloud](https://streamlit.io/cloud)
 
-3. Install dependencies:
-   ```bash
-   npm install
-   ```
+## 📦 Installation
 
-4. Run the app:
-   ```bash
-   expo start
-   ```
+```bash
+pip install -r requirements.txt
+```
 
-5. Use the QR code to open the app in **Expo Go** on your phone.
+## ▶️ Run the App
+
+```bash
+streamlit run swipeshop_ai_streamlit.py
+```
+
+## ☁️ Deploy to Streamlit Cloud
+
+1. Push this repo to GitHub.
+2. Go to [streamlit.io/cloud](https://streamlit.io/cloud)
+3. Connect your GitHub & choose this repo.
+4. Set `swipeshop_ai_streamlit.py` as the main file.
+5. Click **Deploy**.
+
+## 📁 Files
+
+- `swipeshop_ai_streamlit.py` — Main app script
+- `requirements.txt` — Python dependencies
+
+## 🧠 Powered by
+
+- [Streamlit](https://streamlit.io)
+- [FakeStore API](https://fakestoreapi.com)
 
 ---
 
-This is a demo MVP for SwipeShop AI with swipeable product videos and virtual try-on placeholder.
+Made with ❤️ by AI
